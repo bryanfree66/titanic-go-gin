@@ -1,5 +1,5 @@
 # titanic-go-gin
-## An example Titanic passenger REST API using go and Gin 
+## An example Titanic passenger REST API using Go and Gin 
 
 Dataset download link: https://www.kaggle.com/c/titanic/data?select=train.csv
 
