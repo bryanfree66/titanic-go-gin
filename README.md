@@ -14,6 +14,7 @@ Dataset download link: https://www.kaggle.com/c/titanic/data?select=train.csv
    - DB_ENDPOINT: default - localhost
    - DB_PORT: default - 27017
    - PORT: default - 8080
+   - GIN_MODE: default - "debug"
    
 To access Mongo Shell :
 1. mongosh --host 127.0.0.1:27017 -u "$MONGO_INITDB_ROOT_USERNAME" -p "$MONGO_INITDB_ROOT_PASSWORD" --authenticationDatabase admin
