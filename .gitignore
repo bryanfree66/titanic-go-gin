@@ -1,2 +1,4 @@
 /database/
 .env
+.DS_Store
+.idea/
