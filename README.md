@@ -1,7 +1,5 @@
 # titanic-go-gin
-## An example Titanic passenger REST API using Go and Gin 
-
-Dataset download link: https://www.kaggle.com/c/titanic/data?select=train.csv
+## An example Titanic passenger REST API using Go and Gin
 
 1. In the root of the project, create a .env file for docker compose and add environment variables: DB_USER and DB_PASSWORD (eg. DB_USER=mongo  DB_PASSWORD=mongo1234)
 2. Start the MongoDB container: docker compose up -d
