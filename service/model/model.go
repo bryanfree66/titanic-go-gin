@@ -41,7 +41,7 @@ const (
 type TripData struct {
 	PassengerClass PassengerClass `json:"passengerClass,omitempty" bson:"PassengerClass,omitempty"`
 	Deck           string         `json:"deck,omitempty" bson:"Deck,omitempty"`
-	Cabin          string         `json:"cabin,omitempty" bson:"Cabin,omitempty"`
+	Cabin          []int          `json:"cabin,omitempty" bson:"Cabin,omitempty"`
 	GroupSize      int            `json:"groupSize,omitempty" bson:"GroupSize,omitempty"`
 	Ticket         string         `json:"ticket,omitempty" bson:"Ticket,omitempty"`
 	Fare           float32        `json:"fare,omitempty" bson:"Fare,truncate"`
