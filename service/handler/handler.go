@@ -9,6 +9,7 @@ import (
 	"go.mongodb.org/mongo-driver/bson"
 	"log"
 	"net/http"
+	"os"
 )
 
 // database and collection constants
@@ -30,7 +31,7 @@ func NewHandler(c *Config) {
 	h := &Handler{}
 
 	// Create a group, or base url for all routes
-	g := c.R.Group("/api/passengers")
+	g := c.R.Group(os.Getenv("PASSENGER_API_URL"))
 
 	// route handlers
 	g.GET("/", h.Passengers)
