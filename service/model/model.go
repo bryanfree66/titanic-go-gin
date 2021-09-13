@@ -40,7 +40,7 @@ const (
 
 type TripData struct {
 	PassengerClass PassengerClass `json:"passengerClass,omitempty" bson:"PassengerClass,omitempty"`
-	Deck           string         `json:"deck,omitempty" bson:"Deck,omitempty"`
+	Deck           int            `json:"deck,omitempty" bson:"Deck,omitempty"`
 	Cabin          []int          `json:"cabin,omitempty" bson:"Cabin,omitempty"`
 	GroupSize      int            `json:"groupSize,omitempty" bson:"GroupSize,omitempty"`
 	Ticket         string         `json:"ticket,omitempty" bson:"Ticket,omitempty"`
@@ -58,5 +58,5 @@ type Passenger struct {
 	LastName    string   `json:"lastName,omitempty" bson:"LastName,omitempty"`
 	Sex         Sex      `json:"sex,omitempty"  bson:"Sex,omitempty"`
 	Age         int      `json:"age,omitempty"  bson:"Age,truncate"`
-	TripData    TripData `json:"tripData" bson:"TripData"`
+	TripData    TripData `json:"tripData"`
 }
