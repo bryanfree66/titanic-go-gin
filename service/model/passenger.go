@@ -1,6 +1,9 @@
 package model
 
-import "errors"
+import (
+	"errors"
+	"go.mongodb.org/mongo-driver/bson/primitive"
+)
 
 type SexType string
 
@@ -83,14 +86,14 @@ type TripData struct {
 }
 
 type Passenger struct {
-	Id          string   `json:"id,omitempty" bson:"_id,omitempty"`
-	PassengerId int      `json:"passengerId,omitempty" bson:"PassengerId,omitempty"`
-	Survived    bool     `json:"survived,omitempty" bson:"Survived,omitempty"`
-	Title       string   `json:"title,omitempty" bson:"Title,omitempty"`
-	FirstName   string   `json:"firstName,omitempty" bson:"FirstName,omitempty"`
-	MiddleName  string   `json:"middleNameName,omitempty" bson:"MiddleNameName,omitempty"`
-	LastName    string   `json:"lastName,omitempty" bson:"LastName,omitempty"`
-	Sex         SexType  `json:"sex,omitempty"  bson:"Sex,omitempty"`
-	Age         int      `json:"age,omitempty"  bson:"Age,truncate"`
-	TripData    TripData `json:"tripData"  bson:"TripData"`
+	UID         primitive.ObjectID `json:"uid,omitempty" bson:"_id,omitempty"`
+	PassengerId int                `json:"passengerId,omitempty" bson:"PassengerId,omitempty"`
+	Survived    bool               `json:"survived,omitempty" bson:"Survived,omitempty"`
+	Title       string             `json:"title,omitempty" bson:"Title,omitempty"`
+	FirstName   string             `json:"firstName,omitempty" bson:"FirstName,omitempty"`
+	MiddleName  string             `json:"middleNameName,omitempty" bson:"MiddleNameName,omitempty"`
+	LastName    string             `json:"lastName,omitempty" bson:"LastName,omitempty"`
+	Sex         SexType            `json:"sex,omitempty"  bson:"Sex,omitempty"`
+	Age         int                `json:"age,omitempty"  bson:"Age,truncate"`
+	TripData    TripData           `json:"tripData"  bson:"TripData"`
 }
