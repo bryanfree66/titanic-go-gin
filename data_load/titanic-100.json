@@ -5,16 +5,16 @@
   "FirstName": "Owen",
   "middleName": "Harris",
   "LastName":"Braund",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 22,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 2,
     "Ticket": "A/5 21171",
     "Fare": 7.25,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
     "PassengerId": 2,
@@ -22,17 +22,17 @@
     "Title": "Mrs.",
     "FirstName": "Florence",
     "middleName": "",
-    "LastName": "Briggs Thayer Cumings",
-    "Sex": 1,
+    "LastName": "Briggs Thayer Cummings",
+    "Sex":  "female",
     "Age": 38,
     "TripData": {
       "PassengerClass": 1,
-      "Deck": 3,
+      "Deck": "C",
       "Cabin": [85],
       "GroupSize": 2,
       "Ticket": "PC 17599",
       "Fare": 71.28,
-      "Embarked": 1
+      "Embarked": "Cherbourg"
     }
   },{
   "PassengerId" : 3,
@@ -41,16 +41,16 @@
   "FirstName": "Laina",
   "middleName": "",
   "LastName":"Heikkinen",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 26,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "STON/O2. 3101282",
     "Fare": 7.92,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 4,
@@ -59,16 +59,16 @@
   "FirstName": "Lily",
   "middleName": "May",
   "LastName":"Peel Futrelle",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 35,
   "TripData": {
     "PassengerClass": 1,
-    "Deck": 3,
+    "Deck": "C",
     "Cabin": [123],
     "GroupSize": 2,
     "Ticket": "113803",
     "Fare": 53.10,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 5,
@@ -77,16 +77,16 @@
   "FirstName": "William",
   "middleName": "Henry",
   "LastName":"Allen",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 35,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "373450",
     "Fare": 8.05,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 6,
@@ -95,16 +95,16 @@
   "FirstName": "James",
   "middleName": "",
   "LastName":"Moran",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 0,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "330877",
     "Fare": 8.45,
-    "Embarked": 3
+    "Embarked": "Queenstown"
   }
 },{
   "PassengerId" : 7,
@@ -113,16 +113,16 @@
   "FirstName": "Timothy",
   "middleName": "J.",
   "LastName":"McCarthy",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 54,
   "TripData": {
     "PassengerClass": 1,
-    "Deck": 5,
+    "Deck": "E",
     "Cabin": [46],
     "GroupSize": 1,
     "Ticket": "17463",
     "Fare": 51.86,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 8,
@@ -131,16 +131,16 @@
   "FirstName": "Gosta",
   "middleName": "Leonard",
   "LastName":"Palsson",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 2,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 5,
     "Ticket": "349909",
     "Fare": 21.07,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 9,
@@ -149,16 +149,16 @@
   "FirstName": "Elisabeth",
   "middleName": "Vilhelmina",
   "LastName":"Berg Johnson",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 27,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 3,
     "Ticket": "347742",
     "Fare": 11.13,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 10,
@@ -167,16 +167,16 @@
   "FirstName": "Adele",
   "middleName": "Achem",
   "LastName":"Nasser",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 14,
   "TripData": {
     "PassengerClass": 2,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 2,
     "Ticket": "237736",
     "Fare": 30.07,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 11,
@@ -185,16 +185,16 @@
   "FirstName": "Marguerite",
   "middleName": "Rut",
   "LastName":"Sandstrom",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 4,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 7,
+    "Deck": "G",
     "Cabin": [6],
     "GroupSize": 3,
     "Ticket": "PP 9549",
     "Fare": 16.70,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 12,
@@ -203,16 +203,16 @@
   "FirstName": "Elizabeth",
   "middleName": "",
   "LastName":"Bonnell",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 58,
   "TripData": {
     "PassengerClass": 1,
-    "Deck": 3,
+    "Deck": "C",
     "Cabin": [103],
     "GroupSize": 1,
     "Ticket": "113783",
     "Fare": 26.55,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 13,
@@ -221,16 +221,16 @@
   "FirstName": "William",
   "middleName": "Henry",
   "LastName":"Saundercock",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 20,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "A/5. 2151",
     "Fare": 8.05,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 14,
@@ -239,16 +239,16 @@
   "FirstName": "Anders",
   "middleName": "Johan",
   "LastName":"Andersson",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 39,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 7,
     "Ticket": "347082",
     "Fare": 31.27,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 15,
@@ -257,16 +257,16 @@
   "FirstName": "Hulda",
   "middleName": "Amanda",
   "LastName":"Adolfina Vestrom",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 14,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "350406",
     "Fare": 7.85,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 16,
@@ -275,16 +275,16 @@
   "FirstName": "Mary",
   "middleName": "D.",
   "LastName":"Kingcome Hewlett",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 55,
   "TripData": {
     "PassengerClass": 2,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "248706",
     "Fare": 16.00,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 17,
@@ -293,16 +293,16 @@
   "FirstName": "Eugene",
   "middleName": "",
   "LastName":"Rice",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 2,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 6,
     "Ticket": "382652",
     "Fare": 29.12,
-    "Embarked": 3
+    "Embarked": "Queenstown"
   }
 },{
   "PassengerId" : 18,
@@ -311,16 +311,16 @@
   "FirstName": "Charles",
   "middleName": "Eugene",
   "LastName":"Williams",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 0,
   "TripData": {
     "PassengerClass": 2,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "244373",
     "Fare": 13.00,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 19,
@@ -329,16 +329,16 @@
   "FirstName": "Emelia",
   "middleName": "Maria",
   "LastName":"Vandemoortele Vander Planke",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 31,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 2,
     "Ticket": "345763",
     "Fare": 18.00,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 20,
@@ -347,16 +347,16 @@
   "FirstName": "Fatima",
   "middleName": "",
   "LastName":"Masselmani",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 0,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "2649",
     "Fare": 7.22,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 21,
@@ -365,16 +365,16 @@
   "FirstName": "Joseph",
   "middleName": "J",
   "LastName":"Fynney",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 35,
   "TripData": {
     "PassengerClass": 2,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "239865",
     "Fare": 26.00,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 22,
@@ -383,16 +383,16 @@
   "FirstName": "Lawrence",
   "middleName": "",
   "LastName":"Beesley",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 34,
   "TripData": {
     "PassengerClass": 2,
-    "Deck": 4,
+    "Deck": "D",
     "Cabin": [56],
     "GroupSize": 1,
     "Ticket": "248698",
     "Fare": 13.00,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 23,
@@ -401,16 +401,16 @@
   "FirstName": "Anna",
   "middleName": "",
   "LastName":"McGowan",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 15,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "330923",
     "Fare": 8.03,
-    "Embarked": 3
+    "Embarked": "Queenstown"
   }
 },{
   "PassengerId" : 24,
@@ -419,16 +419,16 @@
   "FirstName": "William",
   "middleName": "Thompson",
   "LastName":"Sloper",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 28,
   "TripData": {
     "PassengerClass": 1,
-    "Deck": 1,
+    "Deck": "A",
     "Cabin": [6],
     "GroupSize": 1,
     "Ticket": "113788",
     "Fare": 35.50,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 25,
@@ -437,16 +437,16 @@
   "FirstName": "Torborg",
   "middleName": "Danira",
   "LastName":"Palsson",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 8,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 5,
     "Ticket": "349909",
     "Fare": 21.07,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 26,
@@ -455,16 +455,16 @@
   "FirstName": "Selma",
   "middleName": "Augusta",
   "LastName":"Emilia Johansson Asplund",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 38,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 7,
     "Ticket": "347077",
     "Fare": 31.37,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 27,
@@ -473,16 +473,16 @@
   "FirstName": "Farred",
   "middleName": "Chehab",
   "LastName":"Emir",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 0,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "2631",
     "Fare": 7.22,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 28,
@@ -491,16 +491,16 @@
   "FirstName": "Charles",
   "middleName": "Alexander",
   "LastName":"Fortune",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 19,
   "TripData": {
     "PassengerClass": 1,
-    "Deck": 3,
+    "Deck": "C",
     "Cabin": [23, 25, 27],
     "GroupSize": 0,
     "Ticket": "19950",
     "Fare": 263.00,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 29,
@@ -509,16 +509,16 @@
   "FirstName": "Ellen",
   "middleName": "",
   "LastName":"O'Dwyer",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 0,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "330959",
     "Fare": 7.88,
-    "Embarked": 3
+    "Embarked": "Queenstown"
   }
 },{
   "PassengerId" : 30,
@@ -527,16 +527,16 @@
   "FirstName": "Lalio",
   "middleName": "",
   "LastName":"Todoroff",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 0,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "349216",
     "Fare": 7.90,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 31,
@@ -545,16 +545,16 @@
   "FirstName": "Manuel",
   "middleName": "E.",
   "LastName":"Uruchurtu",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 40,
   "TripData": {
     "PassengerClass": 11,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "PC 17601",
     "Fare": 27.72,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 32,
@@ -563,16 +563,16 @@
   "FirstName": "Marie",
   "middleName": "Eugenie",
   "LastName":"Spencer",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 0,
   "TripData": {
     "PassengerClass": 1,
-    "Deck": 2,
+    "Deck": "B",
     "Cabin": [78],
     "GroupSize": 2,
     "Ticket": "PC 17569",
     "Fare": 146.52,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 33,
@@ -581,16 +581,16 @@
   "FirstName": "Mary",
   "middleName": "Agatha",
   "LastName":"Glynn",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 0,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "335677",
     "Fare": 7.75,
-    "Embarked": 3
+    "Embarked": "Queenstown"
   }
 },{
   "PassengerId" : 34,
@@ -599,16 +599,16 @@
   "FirstName": "Edward",
   "middleName": "H.",
   "LastName":"Wheadon",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 66,
   "TripData": {
     "PassengerClass": 2,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "C.A. 24579",
     "Fare": 10.50,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 35,
@@ -617,16 +617,16 @@
   "FirstName": "Edgar",
   "middleName": "Joseph",
   "LastName":"Meyer",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 28,
   "TripData": {
     "PassengerClass": 1,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 2,
     "Ticket": "PC 17604",
     "Fare": 82.17,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 36,
@@ -635,16 +635,16 @@
   "FirstName": "Alexander",
   "middleName": "Oskar",
   "LastName":"Holverson",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 42,
   "TripData": {
     "PassengerClass": 1,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 2,
     "Ticket": "113789",
     "Fare": 52.00,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 37,
@@ -653,16 +653,16 @@
   "FirstName": "Hanna",
   "middleName": "",
   "LastName":"Mamee",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 0,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "2677",
     "Fare": 7.23,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 38,
@@ -671,16 +671,16 @@
   "FirstName": "Ernest",
   "middleName": "Charles",
   "LastName":"Cann",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 21,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "A./5. 2152",
     "Fare": 8.05,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 39,
@@ -689,16 +689,16 @@
   "FirstName": "Augusta",
   "middleName": "Maria",
   "LastName":"Vander Planke",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 18,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 3,
     "Ticket": "345764",
     "Fare": 18.0,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 40,
@@ -707,16 +707,16 @@
   "FirstName": "Jamila",
   "middleName": "",
   "LastName":"Nicola-Yarred",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 14,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 2,
     "Ticket": "2651",
     "Fare": 11.24,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 41,
@@ -725,16 +725,16 @@
   "FirstName": "Johanna",
   "middleName": "Persdotter",
   "LastName":"Larsson Ahlin",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 14,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 2,
     "Ticket": "7546",
     "Fare": 9.47,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 42,
@@ -743,16 +743,16 @@
   "FirstName": "Dorothy",
   "middleName": "Anne",
   "LastName":"Wonnacott Turpin",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 27,
   "TripData": {
     "PassengerClass": 2,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 2,
     "Ticket": "11668",
     "Fare": 21.00,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 43,
@@ -761,16 +761,16 @@
   "FirstName": "Theodor",
   "middleName": "",
   "LastName":"Kraeff",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 0,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "349253",
     "Fare": 7.90,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 44,
@@ -779,16 +779,16 @@
   "FirstName": "Simonne",
   "middleName": "Marie Anne",
   "LastName":"Andree Laroche",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 3,
   "TripData": {
     "PassengerClass": 0,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 4,
     "Ticket": "SC/Paris 2123",
     "Fare": 41.58,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 45,
@@ -797,16 +797,16 @@
   "FirstName": "Margaret",
   "middleName": "Delia",
   "LastName":"Devaney",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 19,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "330958",
     "Fare": 7.88,
-    "Embarked": 3
+    "Embarked": "Queenstown"
   }
 },{
   "PassengerId" : 46,
@@ -815,16 +815,16 @@
   "FirstName": "William",
   "middleName": "John",
   "LastName":"Rogers",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 0,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "S.C./A.4. 23567",
     "Fare": 8.05,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 47,
@@ -833,16 +833,16 @@
   "FirstName": "Denis",
   "middleName": "",
   "LastName":"Lennon",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 0,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 2,
     "Ticket": "370371",
     "Fare": 15.50,
-    "Embarked": 3
+    "Embarked": "Queenstown"
   }
 },{
   "PassengerId" : 48,
@@ -851,16 +851,16 @@
   "FirstName": "Bridget",
   "middleName": "",
   "LastName":"O'Driscoll",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 0,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "14311",
     "Fare": 7.75,
-    "Embarked": 3
+    "Embarked": "Queenstown"
   }
 },{
   "PassengerId" : 49,
@@ -869,16 +869,16 @@
   "FirstName": "Youssef",
   "middleName": "",
   "LastName":"Samaan",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 0,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 3,
     "Ticket": "2662",
     "Fare": 21.68,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 50,
@@ -887,16 +887,16 @@
   "FirstName": "Josefine",
   "middleName": "",
   "LastName":"Arnold-Franchi",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 18,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 2,
     "Ticket": "349237",
     "Fare": 17.80,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 51,
@@ -905,16 +905,16 @@
   "FirstName": "Juha",
   "middleName": "Niilo",
   "LastName":"Panula",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 7,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 6,
     "Ticket": "3101295",
     "Fare": 39.69,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 52,
@@ -923,16 +923,16 @@
   "FirstName": "Richard",
   "middleName": "Cater",
   "LastName":"Nosworthy",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 21,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "A/4. 39886",
     "Fare": 7.80,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 53,
@@ -941,16 +941,16 @@
   "FirstName": "Myna",
   "middleName": "",
   "LastName":"Haxtun Harper",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 49,
   "TripData": {
     "PassengerClass": 1,
-    "Deck": 4,
+    "Deck": "D",
     "Cabin": [33],
     "GroupSize": 2,
     "Ticket": "PC 17572",
     "Fare": 76.93,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 54,
@@ -959,16 +959,16 @@
   "FirstName": "Elizabeth",
   "middleName": "Anne",
   "LastName":"Wilkinson Faunthorpe",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 29,
   "TripData": {
     "PassengerClass": 2,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 2,
     "Ticket": "2926",
     "Fare": 26.00,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 55,
@@ -977,16 +977,16 @@
   "FirstName": "Engelhart",
   "middleName": "Cornelius",
   "LastName":"Ostby",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 65,
   "TripData": {
     "PassengerClass": 1,
-    "Deck": 2,
+    "Deck": "B",
     "Cabin": [30],
     "GroupSize": 2,
     "Ticket": "113509",
     "Fare": 61.98,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 56,
@@ -995,16 +995,16 @@
   "FirstName": "Hugh",
   "middleName": "",
   "LastName":"Woolner",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 0,
   "TripData": {
     "PassengerClass": 1,
-    "Deck": 3,
+    "Deck": "C",
     "Cabin": [52],
     "GroupSize": 1,
     "Ticket": "19947",
     "Fare": 35.50,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 57,
@@ -1013,16 +1013,16 @@
   "FirstName": "Emily",
   "middleName": "",
   "LastName":"Rugg",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 21,
   "TripData": {
     "PassengerClass": 2,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "C.A. 31026",
     "Fare": 10.5,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 58,
@@ -1031,16 +1031,16 @@
   "FirstName": "Mansouer",
   "middleName": "",
   "LastName":"Novel",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 28,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "2697",
     "Fare": 7.23,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 59,
@@ -1049,16 +1049,16 @@
   "FirstName": "Constance",
   "middleName": "Mirium",
   "LastName":"West",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 5,
   "TripData": {
     "PassengerClass": 2,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 4,
     "Ticket": "C.A. 34651",
     "Fare": 27.75,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 60,
@@ -1067,16 +1067,16 @@
   "FirstName": "William",
   "middleName": "Frederick",
   "LastName":"Goodwin",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 11,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 8,
     "Ticket": "CA 2144",
     "Fare": 46.90,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 61,
@@ -1085,16 +1085,16 @@
   "FirstName": "Orsen",
   "middleName": "",
   "LastName":"Sirayanian",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 22,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "2669",
     "Fare": 7.23,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 62,
@@ -1103,16 +1103,16 @@
   "FirstName": "Amelie",
   "middleName": "",
   "LastName":"Icard",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 38,
   "TripData": {
     "PassengerClass": 1,
-    "Deck": 2,
+    "Deck": "B",
     "Cabin": [28],
     "GroupSize": 1,
     "Ticket": "113572",
     "Fare": 80.00,
-    "Embarked": 0
+    "Embarked": "Unknown"
   }
 },{
   "PassengerId" : 63,
@@ -1121,16 +1121,16 @@
   "FirstName": "Henry",
   "middleName": "Birkhardt",
   "LastName":"Harris",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 45,
   "TripData": {
     "PassengerClass": 1,
-    "Deck": 3,
+    "Deck": "C",
     "Cabin": [83],
     "GroupSize": 2,
     "Ticket": "36973",
     "Fare": 83.47,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 64,
@@ -1139,16 +1139,16 @@
   "FirstName": "Harald",
   "middleName": "",
   "LastName":"Skoog",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 4,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 6,
     "Ticket": "347088",
     "Fare": 27.90,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 65,
@@ -1157,16 +1157,16 @@
   "FirstName": "Albert",
   "middleName": "A.",
   "LastName":"Stewart",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 0,
   "TripData": {
     "PassengerClass": 1,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "PC 17605",
     "Fare": 27.72,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 66,
@@ -1175,16 +1175,16 @@
   "FirstName": "Gerios",
   "middleName": "",
   "LastName":"Moubarek",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 0,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 3,
     "Ticket": "2661",
     "Fare": 15.25,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 67,
@@ -1193,16 +1193,16 @@
   "FirstName": "Elizabeth",
   "middleName": "",
   "LastName":"Ramell Nye",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 29,
   "TripData": {
     "PassengerClass": 2,
-    "Deck": 6,
+    "Deck": "F",
     "Cabin": [33],
     "GroupSize": 1,
     "Ticket": "C.A. 29395",
     "Fare": 10.50,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 68,
@@ -1211,16 +1211,16 @@
   "FirstName": "Ernest",
   "middleName": "James",
   "LastName":"Crease",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 19,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "S.P. 3464",
     "Fare": 8.16,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 69,
@@ -1229,16 +1229,16 @@
   "FirstName": "Erna",
   "middleName": "Alexandra",
   "LastName":"Andersson",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 17,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 7,
     "Ticket": "3101281",
     "Fare": 7.92,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 70,
@@ -1247,16 +1247,16 @@
   "FirstName": "Vincenz",
   "middleName": "",
   "LastName":"Kink",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 26,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 3,
     "Ticket": "315151",
     "Fare": 8.66,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 71,
@@ -1265,16 +1265,16 @@
   "FirstName": "Stephen",
   "middleName": "Curnow",
   "LastName":"Jenkin",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 32,
   "TripData": {
     "PassengerClass": 2,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "C.A. 33111",
     "Fare": 10.50,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 72,
@@ -1283,16 +1283,16 @@
   "FirstName": "Lillian",
   "middleName": "Amy",
   "LastName":"Goodwin",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 16,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 8,
     "Ticket": "CA 2144",
     "Fare": 46.90,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 73,
@@ -1301,16 +1301,16 @@
   "FirstName": "Ambrose",
   "middleName": "",
   "LastName":"Hood Jr.",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 21,
   "TripData": {
     "PassengerClass": 2,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "S.O.C. 14879",
     "Fare": 73.50,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 74,
@@ -1319,16 +1319,16 @@
   "FirstName": "Apostolos",
   "middleName": "",
   "LastName":"Chronopoulos",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 26,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 2,
     "Ticket": "2680",
     "Fare": 14.45,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 75,
@@ -1337,16 +1337,16 @@
   "FirstName": "Lee",
   "middleName": "",
   "LastName":"Bing",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 22,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "1601",
     "Fare": 54.50,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 76,
@@ -1355,16 +1355,16 @@
   "FirstName": "Sigurd",
   "middleName": "Hansen",
   "LastName":"Moen",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 25,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 7,
+    "Deck": "G",
     "Cabin": [73],
     "GroupSize": 1,
     "Ticket": "348123",
     "Fare": 7.65,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 77,
@@ -1373,16 +1373,16 @@
   "FirstName": "Ivan",
   "middleName": "",
   "LastName":"Staneff",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 0,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "349208",
     "Fare": 7.90,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 78,
@@ -1391,16 +1391,16 @@
   "FirstName": "Rahamin",
   "middleName": "Haim",
   "LastName":"Moutal",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 0,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "374746",
     "Fare": 8.05,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 79,
@@ -1409,16 +1409,16 @@
   "FirstName": "Alden",
   "middleName": "Gates",
   "LastName":"Caldwell",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 1,
   "TripData": {
     "PassengerClass": 2,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 3,
     "Ticket": "248738",
     "Fare": 29.00,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 80,
@@ -1427,16 +1427,16 @@
   "FirstName": "Elizabeth",
   "middleName": "",
   "LastName":"Dowdell",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 30,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "364516",
     "Fare": 0.0,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 81,
@@ -1445,16 +1445,16 @@
   "FirstName": "Achille",
   "middleName": "",
   "LastName":"Waelens",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 22,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "345767",
     "Fare": 9.00,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 82,
@@ -1463,16 +1463,16 @@
   "FirstName": "Jan",
   "middleName": "Baptist",
   "LastName":"Sheerlinck",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 29,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "330932",
     "Fare": 7.79,
-    "Embarked": 3
+    "Embarked": "Queenstown"
   }
 },{
   "PassengerId" : 83,
@@ -1481,16 +1481,16 @@
   "FirstName": "Matilda",
   "middleName": "",
   "LastName":"Petranec",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 28,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "349245",
     "Fare": 7.90,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 84,
@@ -1499,16 +1499,16 @@
   "FirstName": "Francisco",
   "middleName": "M.",
   "LastName":"Carrau",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 28,
   "TripData": {
     "PassengerClass": 0,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "113059",
     "Fare": 47.10,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 85,
@@ -1517,16 +1517,16 @@
   "FirstName": "Bertha",
   "middleName": "",
   "LastName":"Ilett",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 17,
   "TripData": {
     "PassengerClass": 2,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "SO/C 14885",
     "Fare": 10.50,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 86,
@@ -1535,16 +1535,16 @@
   "FirstName": "Maria",
   "middleName": "Mathilda",
   "LastName":"Gustafsson Backstrom",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 33,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 4,
     "Ticket": "3101278",
     "Fare": 15.85,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 87,
@@ -1553,16 +1553,16 @@
   "FirstName": "Selman",
   "middleName": "Francis",
   "LastName":"Slocovski",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 0,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "SOTON/OQ 392086",
     "Fare": 8.05,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 88,
@@ -1571,16 +1571,16 @@
   "FirstName": "Mabel",
   "middleName": "Helen",
   "LastName":"Fortune",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 23,
   "TripData": {
     "PassengerClass": 1,
-    "Deck": 3,
+    "Deck": "C",
     "Cabin": [23, 25, 27],
     "GroupSize": 6,
     "Ticket": "19950",
     "Fare": 263.00,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 89,
@@ -1589,16 +1589,16 @@
   "FirstName": "Francesco",
   "middleName": "",
   "LastName":"Celotti",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 24,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "343275",
     "Fare": 8.05,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 90,
@@ -1607,16 +1607,16 @@
   "FirstName": "Emil",
   "middleName": "",
   "LastName":"Christmann",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 29,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "343276",
     "Fare": 8.05,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 91,
@@ -1625,16 +1625,16 @@
   "FirstName": "Paul",
   "middleName": "Edvin",
   "LastName":"Andreasson",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 20,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "347466",
     "Fare": 7.85,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 92,
@@ -1643,16 +1643,16 @@
   "FirstName": "Herbert",
   "middleName": "Fuller",
   "LastName":"Chaffee",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 46,
   "TripData": {
     "PassengerClass": 1,
-    "Deck": 5,
+    "Deck": "E",
     "Cabin": [31],
     "GroupSize": 2,
     "Ticket": "W.E.P. 5734",
     "Fare": 61.17,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 93,
@@ -1661,16 +1661,16 @@
   "FirstName": "Bertram",
   "middleName": "Frank",
   "LastName":"Dean",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 26,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 4,
     "Ticket": "C.A. 2315",
     "Fare": 20.57,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 94,
@@ -1679,16 +1679,16 @@
   "FirstName": "Daniel",
   "middleName": "",
   "LastName":"Coxon",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 59,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "364500",
     "Fare": 7.25,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 95,
@@ -1697,16 +1697,16 @@
   "FirstName": "Charles",
   "middleName": "Joseph",
   "LastName":"Shorney",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 0,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 0,
     "Ticket": "374910",
     "Fare": 8.04,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 96,
@@ -1715,16 +1715,16 @@
   "FirstName": "George",
   "middleName": "B.",
   "LastName":"Goldschmidt",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 71,
   "TripData": {
     "PassengerClass": 1,
-    "Deck": 1,
+    "Deck": "A",
     "Cabin": [5],
     "GroupSize": 1,
     "Ticket": "PC 17754",
     "Fare": 34.65,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 97,
@@ -1733,16 +1733,16 @@
   "FirstName": "William",
   "middleName": "Bertram",
   "LastName":"Greenfield",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 23,
   "TripData": {
     "PassengerClass": 1,
-    "Deck": 4,
+    "Deck": "D",
     "Cabin": [10, 12],
     "GroupSize": 2,
     "Ticket": "PC 17759",
     "Fare": 63.36,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 },{
   "PassengerId" : 98,
@@ -1751,16 +1751,16 @@
   "FirstName": "Ada",
   "middleName": "Julia",
   "LastName":"Bone Doling",
-  "Sex": 1,
+  "Sex":  "female",
   "Age": 34,
   "TripData": {
     "PassengerClass": 2,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 2,
     "Ticket": "231919",
     "Fare": 23.00,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 99,
@@ -1769,16 +1769,16 @@
   "FirstName": "Sinai",
   "middleName": "",
   "LastName":"Kantor",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 34,
   "TripData": {
     "PassengerClass": 2,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 2,
     "Ticket": "244367",
     "Fare": 26.00,
-    "Embarked": 2
+    "Embarked": "Southampton"
   }
 },{
   "PassengerId" : 100,
@@ -1787,16 +1787,16 @@
   "FirstName": "Pastcho",
   "middleName": "",
   "LastName":"Petroff",
-  "Sex": 0,
+  "Sex":  "male",
   "Age": 0,
   "TripData": {
     "PassengerClass": 3,
-    "Deck": 0,
+    "Deck": "Unknown",
     "Cabin": [],
     "GroupSize": 1,
     "Ticket": "349215",
     "Fare": 7.90,
-    "Embarked": 1
+    "Embarked": "Cherbourg"
   }
 }
 ]
