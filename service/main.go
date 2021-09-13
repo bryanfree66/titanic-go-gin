@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"github.com/bryanfree66/titanic-go-gin/service/api"
+	"github.com/bryanfree66/titanic-go-gin/service/handler"
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
@@ -15,7 +15,16 @@ import (
 func main() {
 	log.Println("Starting the server...")
 	r := gin.Default()
-	r.GET("/api/passengers/", api.GetPassengers)
+	//r.GET("/handler/passengers/", handler.GetPassengers)
+	//srv := &http.Server{
+	//	Addr:    getPort(),
+	//	Handler: r,
+	//}
+
+	handler.NewHandler(&handler.Config{
+		R: r,
+	})
+
 	srv := &http.Server{
 		Addr:    getPort(),
 		Handler: r,
@@ -49,6 +58,8 @@ func main() {
 	}
 }
 
+// getPort reads the PORT environment variable and returns
+// a formatted string
 func getPort() string {
 	p := os.Getenv("PORT")
 	return ":" + p

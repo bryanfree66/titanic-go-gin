@@ -1,4 +1,4 @@
-package api
+package handler
 
 import (
 	"context"
@@ -11,13 +11,33 @@ import (
 	"net/http"
 )
 
+// database and collection constants
 const (
 	database   = "titanic"
 	collection = "passengers"
 )
 
-// GetPassengers responds with the list of all albums as JSON.
-func GetPassengers(c *gin.Context) {
+// Handler struct holds required services for handler to function
+type Handler struct{}
+
+// Config will hold services that will eventually be injected
+type Config struct {
+	R *gin.Engine
+}
+
+// NewHandler initializes the handler with required injected services
+func NewHandler(c *Config) {
+	h := &Handler{}
+
+	// Create a group, or base url for all routes
+	g := c.R.Group("/api/passengers")
+
+	// route handlers
+	g.GET("/", h.Passengers)
+}
+
+// Passengers handler returns all passengers
+func (h *Handler) Passengers(c *gin.Context) {
 	log.Println("Handling GET request for all passengers.")
 
 	// Get the database client
