@@ -1,22 +1,31 @@
 package handler
 
 import (
+	"github.com/bryanfree66/titanic-go-gin/app/model"
+	"github.com/bryanfree66/titanic-go-gin/app/model/errors"
 	"github.com/gin-gonic/gin"
+	"go.mongodb.org/mongo-driver/bson/primitive"
+	"log"
 	"net/http"
 	"os"
 )
 
 // Handler struct holds required services for handler to function
-type Handler struct{}
+type Handler struct {
+	PassengerService model.PassengerService
+}
 
 // Config will hold services that will eventually be injected
 type Config struct {
-	R *gin.Engine
+	R                *gin.Engine
+	PassengerService model.PassengerService
 }
 
 // NewHandler initializes the handler with required injected services
 func NewHandler(c *Config) {
-	h := &Handler{}
+	h := &Handler{
+		PassengerService: c.PassengerService,
+	}
 
 	// Create a group, or base url for all routes
 	g := c.R.Group(os.Getenv("PASSENGER_API_URL"))
@@ -35,8 +44,31 @@ func (h *Handler) Passengers(c *gin.Context) {
 
 // Passenger handler returns all passengers
 func (h *Handler) Passenger(c *gin.Context) {
-	uuid := c.Param("uuid")
+	uuidString := c.Param("uuid")
+
+	uuid, err := primitive.ObjectIDFromHex(uuidString)
+	if err != nil {
+		log.Printf("Unable to get object id from url: %v\n%v", uuid, err)
+		e := errors.NewInternal()
+
+		c.JSON(e.Status(), gin.H{
+			"error": e,
+		})
+		return
+	}
+
+	p, err := h.PassengerService.Get(c, uuid)
+	if err != nil {
+		log.Printf("Unable to find passenger: %v\n%v", uuid, err)
+		e := errors.NewNotFound("passenger", uuid.String())
+
+		c.JSON(e.Status(), gin.H{
+			"error": e,
+		})
+		return
+	}
+
 	c.JSON(http.StatusOK, gin.H{
-		"handler": "passenger: " + uuid,
+		"passenger": p,
 	})
 }
