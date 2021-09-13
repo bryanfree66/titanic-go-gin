@@ -86,7 +86,7 @@ type TripData struct {
 }
 
 type Passenger struct {
-	UID         primitive.ObjectID `json:"uid,omitempty" bson:"_id,omitempty"`
+	UUID        primitive.ObjectID `json:"uuid,omitempty" bson:"_id,omitempty"`
 	PassengerId int                `json:"passengerId,omitempty" bson:"PassengerId,omitempty"`
 	Survived    bool               `json:"survived,omitempty" bson:"Survived,omitempty"`
 	Title       string             `json:"title,omitempty" bson:"Title,omitempty"`

@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"github.com/bryanfree66/titanic-go-gin/service/handler"
+	"github.com/bryanfree66/titanic-go-gin/app/handler"
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
