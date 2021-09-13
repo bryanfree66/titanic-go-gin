@@ -35,7 +35,8 @@ func (h *Handler) Passengers(c *gin.Context) {
 
 // Passenger handler returns all passengers
 func (h *Handler) Passenger(c *gin.Context) {
+	uuid := c.Param("uuid")
 	c.JSON(http.StatusOK, gin.H{
-		"handler": "passenger",
+		"handler": "passenger: " + uuid,
 	})
 }

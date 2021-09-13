@@ -1,4 +1,4 @@
-package helpers
+package client
 
 import (
 	"context"
@@ -16,8 +16,8 @@ const (
 	connectionStringTemplate = "mongodb://%s:%s@%s:%s"
 )
 
-// GetConnection creates a MongoDB client
-func GetConnection() (*mongo.Client, context.Context, context.CancelFunc) {
+// GetClient creates a MongoDB client
+func GetClient() (*mongo.Client, context.Context, context.CancelFunc) {
 	username := os.Getenv("DB_USER")
 	if len(username) == 0 {
 		log.Fatalf("Database username not set.")

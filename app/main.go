@@ -4,6 +4,7 @@ import (
 	"context"
 	"github.com/bryanfree66/titanic-go-gin/app/handler"
 	"github.com/gin-gonic/gin"
+	"github.com/joho/godotenv"
 	"log"
 	"net/http"
 	"os"
@@ -14,12 +15,13 @@ import (
 
 func main() {
 	log.Println("Starting the server...")
+
+	err := godotenv.Load()
+	if err != nil {
+		log.Fatal("Error loading environment file")
+	}
+
 	r := gin.Default()
-	//r.GET("/handler/passengers/", handler.GetPassengers)
-	//srv := &http.Server{
-	//	Addr:    getPort(),
-	//	Handler: r,
-	//}
 
 	handler.NewHandler(&handler.Config{
 		R: r,
